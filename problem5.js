@@ -12,10 +12,9 @@ function secondLargest(numbers) {
     return unique[1];
 }
 
-// Examples
-console.log(secondLargest([5, 3, 9, 1, 9, 5])); // 5
-console.log(secondLargest([1, 1, 1])); // null
-console.log(secondLargest([10])); // null
-console.log(secondLargest([4, 4, 4, 2])); // 2
-console.log(secondLargest([])); // null
-console.log(secondLargest([7, 2, 9, 9, 4])); // 7
+console.log(secondLargest([5, 3, 9, 1, 9, 5]));
+console.log(secondLargest([1, 1, 1]));
+console.log(secondLargest([10]));
+console.log(secondLargest([4, 4, 4, 2]));
+console.log(secondLargest([]));
+console.log(secondLargest([7, 2, 9, 9, 4]));
