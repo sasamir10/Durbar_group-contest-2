@@ -1,4 +1,4 @@
-function toCamelCase(sentence) {
+function convertToCamelCase(sentence) {
     return sentence
         .trim()
         .split(/\s+/)
